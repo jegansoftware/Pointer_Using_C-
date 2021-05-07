@@ -31,22 +31,17 @@ public:
 		cout<<endl<<"Rate of Amount   :"<<I;
 		
 		cout<<endl<<"Interest	  	  :"<<SUM;
-		
-		
-		
-		
-		
+				
 		}
 
-
-
 };
+
+
 int main()
 {
-calculation exe,*t;
-t=&exe;
+calculation *t=new calculation();
 t->getvalue();
 t->imprint();
-
+delete t;
 }
 
